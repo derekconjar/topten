@@ -1,0 +1,67 @@
+body {
+  background: #222;
+}
+
+.app {
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 90px;
+  background: #111;
+  display: inline-block;
+  padding: 14px 20px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #ffff17;
+  font-size: 50px;
+  margin-bottom: 70px;
+  border-bottom: #000 7px solid;
+  display: inline-block;
+  padding-bottom: 14px;
+  position: relative;
+  line-height: 1.3;
+  visibility: hidden;
+  display: none;
+}
+
+#hit-me-button {
+  font-size: 40px;
+  padding: 10px 40px;
+  border: none;
+  text-shadow: #000 0px 0px 6px;
+  border: #fff 4px solid;
+  text-transform: uppercase;
+  background: transparent;
+  position: absolute;
+  left: 50%;
+  width: 220px;
+  margin-left: -110px;
+  bottom: 100px;
+  top: 200px;
+  height: 84px;
+}
+
+#hit-me-button:hover {
+  background: #111;
+}
+
+@media(max-width: 1180px) {
+  h2 { font-size: 26px; border: none; }
+  #hit-me-button {
+    font-size: 30px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+}
